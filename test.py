@@ -11,5 +11,5 @@
 # Ryan Barlow
 # Max McCarroll 
 # Christian Loredo
-# Smitty Werbenmenjensen (Deyge)
+# Smitty Werbenmenjensen (Deyge) likes big butts and he cannot lie
 # Jonathan page
