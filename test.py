@@ -17,4 +17,4 @@
 # Joan
 # Austin Correa
 # Dakota McElroy
-# Josh Beitler is a brony and Josh Stout is not Batman no matter how hard he tries
+
