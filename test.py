@@ -1,5 +1,5 @@
 # Josh Beitler
-# Joshua Stout
+# Joshua Stout isn't the hero gotham deserves but the one it needs
 # Travis Adair
 # Joseph Drake
 # Xylonah Stott
