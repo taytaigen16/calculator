@@ -12,6 +12,7 @@ This project will be completed by the class as a whole, with everyone contributi
 5) Submit pull request
 6) yay
 7) Sync with the parent repo
+8) PLEASE make sure there is a newline at the end of the file
 
 ### What will be learned?
 * Basics of open source
