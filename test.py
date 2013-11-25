@@ -9,7 +9,7 @@
 # James Condie 
 # Logan Hirschi
 # Ryan Barlow
-# Max McCarroll is a brony
+# Max McCarroll 
 # Christian Loredo
 # Smitty Werbenmenjensen (Deyge) likes big butts and he cannot lie
 # Jonathan page
