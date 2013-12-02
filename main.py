@@ -18,11 +18,11 @@ import shlex
 
 # Class Imports
 import team1
-import team2
-import team3
-import team4
-import team5
-import team6
+# import team2
+# import team3
+# import team4
+# import team5
+# import team6
 
 class colors:
     BLUE = '\033[94m'
