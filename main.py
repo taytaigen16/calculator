@@ -42,6 +42,8 @@ if __name__ == "__main__":
 	print "Alveyworld Calculator"
 	print "Copyright 2013, Alvey's Class\n"
 
+	# Defines a set of commands that
+	# are used for the command interpreter
 	commands = {
 		"exit",
 		"sqrt",
@@ -60,6 +62,7 @@ if __name__ == "__main__":
 		"hello"
 	}
 
+	# Whitty responses for the command "hello"
 	hellos = [
 		"hello, puny human",
 		"my other car is siri",
