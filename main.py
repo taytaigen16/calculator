@@ -2,30 +2,26 @@
 Alveyworld-dev calculator
 Period 6
 
+Shrek is love. Shrek is life.
+
 Group 1: Team Jacob
 Members:
 	* Jared
 	* Josh
 	* Max
 	* Santiago
-	* Austin
+	* Travis
 """
 
+# Imports
+import group1
+
 class colors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
     WARNING = '\033[93m'
     FAIL = '\033[91m'
     ENDC = '\033[0m'
-
-    def disable(self):
-        self.HEADER = ''
-        self.OKBLUE = ''
-        self.OKGREEN = ''
-        self.WARNING = ''
-        self.FAIL = ''
-        self.ENDC = ''
 
 
 def check_commands(command, *arguments):

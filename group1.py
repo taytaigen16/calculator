@@ -5,7 +5,7 @@ Members:
 	* Josh
 	* Max
 	* Santiago
-	* Austin
+	* Travis
 """
 
 def sqrt():
