@@ -15,6 +15,8 @@ Members:
 
 # Raw imports
 import shlex
+import math
+import random
 
 # Class Imports
 import team1
@@ -42,8 +44,33 @@ if __name__ == "__main__":
 
 	commands = {
 		"exit",
-		"sqrt"
+		"sqrt",
+		"abs",
+		"fact",
+		"pow",
+		"ln",
+		"mod",
+		"log10",
+		"divide",
+		"multiply",
+		"inverse",
+		"add",
+		"sub",
+		"opp",
+		"hello"
 	}
+
+	hellos = [
+		"hello, puny human",
+		"my other car is siri",
+		"feed me paper",
+		"khaaaaaaaaaannn!",
+		"fight me mcpunches",
+		"fight me irl n00b",
+		"1v1 me",
+		"shrek is life.  shrek is love",
+		"the machine race rises"
+	]
 
 	while True:
 		command = shlex.split(raw_input("> "))
@@ -54,5 +81,10 @@ if __name__ == "__main__":
 				if cmd == "sqrt":
 					number = int(command[1])
 					print(team1.sqrt(number))
+				elif cmd == "exit":
+					exit(0)
+				elif cmd == "hello":
+					print(hellos[random.randint(0, len(hellos) - 1)])
+
 
 
