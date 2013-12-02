@@ -13,8 +13,16 @@ Members:
 	* Travis
 """
 
-# Imports
-import group1
+# Raw imports
+import shlex
+
+# Class Imports
+import team1
+import team2
+import team3
+import team4
+import team5
+import team6
 
 class colors:
     BLUE = '\033[94m'
@@ -24,23 +32,6 @@ class colors:
     ENDC = '\033[0m'
 
 
-def check_commands(command, *arguments):
-	"""
-	Checks user-entered commands
-	"""
-
-	commands = {
-		"exit"
-	}
-
-	for _command in commands:
-		if _command == command:
-			print _command
-		else:
-			print colors.FAIL + "Error, command \"" + command + "\" not found" + colors.ENDC
-
-	pass
-
 if __name__ == "__main__":
 	"""
 	Main entry point for the program
@@ -49,5 +40,19 @@ if __name__ == "__main__":
 	print "Alveyworld Calculator"
 	print "Copyright 2013, Alvey's Class\n"
 
+	commands = {
+		"exit",
+		"sqrt"
+	}
+
 	while True:
-		check_commands(raw_input("> "), None)
+		command = shlex.split(raw_input("> "))
+		cmd = command[0]
+
+		for _cmd in commands:
+			if _cmd == cmd:
+				if cmd == "sqrt":
+					number = int(command[1])
+					print(team1.sqrt(number))
+
+
