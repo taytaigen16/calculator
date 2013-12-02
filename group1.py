@@ -8,8 +8,8 @@ Members:
 	* Travis
 """
 
-def sqrt():
+def sqrt(x):
 	"""
 	Returns the square root of a given number
 	"""
-	pass
+ 	return (x**.5)
