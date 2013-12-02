@@ -20,7 +20,7 @@ import random
 
 # Class Imports
 import team1
-# import team2
+import team2
 # import team3
 # import team4
 # import team5
@@ -88,6 +88,6 @@ if __name__ == "__main__":
 					exit(0)
 				elif cmd == "hello":
 					print(hellos[random.randint(0, len(hellos) - 1)])
-
-
-
+				elif cmd == "abs":
+					number = int(command[1])
+					print(team2.abs(number))
