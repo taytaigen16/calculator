@@ -2,7 +2,7 @@
 Alveyworld-dev calculator
 Period 6
 
-Shrek is love. Shrek is life.
+Shrek is love. Shrek is life. Shrek is Alveyworld. All hail Shrek.
 
 Group 1: Team Jacob
 Members:
