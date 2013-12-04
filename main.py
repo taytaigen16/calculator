@@ -40,12 +40,6 @@ if __name__ == "__main__":
 	Main entry point for the program
 	"""
 	
-	# Set up window
-	window = Tkinter.Tk()
-	window.title = "Alveyworld Calculator"
-
-	window.mainloop()
-
 	print "Alveyworld Calculator"
 	print "Copyright 2013, Alvey's Class\n"
 
