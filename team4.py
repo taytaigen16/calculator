@@ -1,6 +1,9 @@
 #JP #Taylor #Ceasar #Dane
 
 def log10(x):
+	"""
+	Taking a number, giving it a base and raising it to a power is log
+	"""
 	temp = x
 	count = 0
 	while temp >= 10:
@@ -9,6 +12,9 @@ def log10(x):
 	return count
 	
 def fib(n):
+	"""
+	using the % sign you can divide and find out the remainder
+	"""
 	a, b = 0,1
 	wile b < n:
 		print b,
