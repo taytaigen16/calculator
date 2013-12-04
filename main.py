@@ -24,7 +24,7 @@ import team2
 # import team3
 # import team4
 # import team5
-# import team6
+import team6
 
 class colors:
     BLUE = '\033[94m'
@@ -119,7 +119,6 @@ if __name__ == "__main__":
 					print "Commands:\n"
 					for helpstr in commands:
 						print helpstr
-
 					print
 				elif cmd == "recall":
 					print "Last value: %d" % last_value
