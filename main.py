@@ -75,7 +75,25 @@ if __name__ == "__main__":
 		"fight me irl n00b",
 		"1v1 me",	
 		"shrek is life.  shrek is love",
-		"the machine race rises"
+		"the machine race rises",
+		"All the way from the bowels of 4chan!",
+		"I love lamp",
+		"GLASS TUBES",
+		"Baaaaka",
+		"Half Life 3 confirmed",
+		"METAL BOXES. THEY'RE HIDING IN METAL BOXES!",
+		"Not XBOXES",
+		"Spess Marens",
+		"No Place for Hideo",
+		"CRAB BATTLE",
+		"Smitty Werbenjagermanjensen",
+		"HE'S STILL NUMBER 1",
+		"Are you feeling it now Mr.Alvey?",
+		"Injoke number 42",
+		"And now for something completely different",
+		"You are about to enter a dimension not only of sight and sound but of mind",
+		"Next Stop the Twilight Zone DUN NA NA du du du du du",
+		"I AM A BRAIN SPECIALIST",
 	]
 
 	while True:
