@@ -94,6 +94,7 @@ if __name__ == "__main__":
 		"You are about to enter a dimension not only of sight and sound but of mind",
 		"Next Stop the Twilight Zone DUN NA NA du du du du du",
 		"I AM A BRAIN SPECIALIST",
+		"KAEAHS",
 	]
 
 	while True:
