@@ -33,6 +33,7 @@ class colors:
     FAIL = '\033[91m'
     ENDC = '\033[0m'
 
+last_value = 0
 
 if __name__ == "__main__":
 	"""
@@ -59,7 +60,9 @@ if __name__ == "__main__":
 		"add",
 		"sub",
 		"opp",
-		"hello"
+		"hello",
+		"help",
+		"recall"
 	}
 
 	# Whitty responses for the command "hello"
@@ -68,9 +71,9 @@ if __name__ == "__main__":
 		"my other car is siri",
 		"feed me paper",
 		"khaaaaaaaaaannn!",
-		"fight me mcpunches",
+		"fight me mcpunchens",
 		"fight me irl n00b",
-		"1v1 me",
+		"1v1 me",	
 		"shrek is life.  shrek is love",
 		"the machine race rises"
 	]
@@ -83,11 +86,21 @@ if __name__ == "__main__":
 			if _cmd == cmd:
 				if cmd == "sqrt":
 					number = int(command[1])
-					print(team1.sqrt(number))
+					last_value = team1.sqrt(number)
+					print(last_value)
 				elif cmd == "exit":
 					exit(0)
 				elif cmd == "hello":
 					print(hellos[random.randint(0, len(hellos) - 1)])
 				elif cmd == "abs":
 					number = int(command[1])
-					print(team2.abs(number))
+					last_value = team2.abs(number)
+					print(last_value)
+				elif cmd == "help":
+					print "Commands:\n"
+					for helpstr in commands:
+						print helpstr
+
+					print
+				elif cmd == "recall":
+					print "Last value: %d" % last_value
