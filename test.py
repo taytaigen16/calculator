@@ -1,5 +1,5 @@
 # Josh Beitler
-# Joshua Stout
+# Joshua Stout isn't the hero gotham deserves but the one it needs
 # Travis Adair
 # Joseph Drake
 # Xylonah Stott
@@ -11,5 +11,10 @@
 # Ryan Barlow
 # Max McCarroll 
 # Christian Loredo
-# Smitty Werbenmenjensen (Deyge)
+# Smitty Werbenmenjensen (Deyge) likes big butts and he cannot lie
 # Jonathan page
+# Alvey
+# Joan
+# Austin Correa
+# Dakota McElroy
+
